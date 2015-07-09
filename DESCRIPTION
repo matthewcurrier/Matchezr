@@ -1,0 +1,15 @@
+Package: Matchezr
+Title: This package provides functions for helping with fuzzy match.
+Version: 0.0.1
+Authors@R: person("Matthew", "Currier", , "currier.matthew@gmail.com", role = c("aut", "cre"))
+Description: This package just gives you some functions for
+  manipulating objects in the r script. It also 'hides' some of the code
+  so you don't have to navigate the tedious bits of the program.
+Depends: R (>= 3.1.2)
+License: GPL-2
+LazyData: true
+Imports: dplyr,
+    tidyr,
+    stringr,
+    lubridate,
+    sqldf
